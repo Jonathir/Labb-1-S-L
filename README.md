@@ -2,3 +2,4 @@ Content Delivery Network är ett nätverk servrar som distribuerar innehåll til
 
 Monitorering innebär att övervaka system, applikationer och nätverk för att se till att de funkar som de ska. Det innefattar att samla in och analysera data för att upptäcka problem, prestandabottlenecks och säkerhetshot. Några fördelar är tidigt problemidentifiering, prestandaoptimenring och säkerhet. Exempel på tjänster är Datadog, New Relic och Prometheus.
 
+ava
