@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
-import './App.css'; // Import the CSS file
+import './App.css';
 
 function App() {
     const [characters, setCharacters] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/')
+        fetch('/api')
             .then(response => response.json())
             .then(data => setCharacters(data))
             .catch(error => console.error('Error fetching characters:', error));
