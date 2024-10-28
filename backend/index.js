@@ -16,7 +16,7 @@ const client = new Client({
 
 client.connect()
 
-app.get('/', async (_request, response) => {
+app.get('/api', async (_request, response) => {
     try {
         const { rows } = await client.query('SELECT * FROM characters');
         response.json(rows); 
